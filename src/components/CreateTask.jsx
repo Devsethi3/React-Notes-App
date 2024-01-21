@@ -29,8 +29,8 @@ const CreateTask = ({ isOpen, toggle, taskFn }) => {
     <>
       {isOpen && (
         <div className="fixed mx-auto inset-0 w-[50rem] flex items-center justify-center">
-          <div className="modal-overlay bg-black opacity-50 fixed inset-0"></div>
-          <div className="modal-content bg-white p-6 rounded-md z-10">
+          <div className="bg-black opacity-50 fixed inset-0"></div>
+          <div className="bg-white p-6 rounded-md z-10">
             <form className="w-[50rem]">
               <h2 className="text-center text-3xl mb-5 pb-3 border-b-2 border-[#5b28c0] font-semibold">
                 Add Notes
